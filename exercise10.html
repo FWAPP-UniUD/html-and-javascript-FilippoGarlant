@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Exercise10</title>   
+    </head>
+    <body>
+        <h1>Exercise 10</h1>
+        <div>
+            <h2><em>Start from the checkbox</em></h2>
+            <input type="checkbox"  id="check" onclick="Show()"/> 
+        </div>
+        <div id="fieldset" style="display:none">
+            <form action="http://satt.diegm.uniud.it/wa/test_form.php"  >
+                <label for="Name"><b>Username</b></label>
+                <input type="text" name="Name">
+                </br>
+                <label for="Password"><b>Password</b></label>
+                <input type="password" name="Password">
+                <input type = "submit">
+            </form>
+        </div>
+    </body>
+    <script>
+    function Show() {
+    var checkbox = document.getElementById("check");
+    var field = document.getElementById("fieldset");
+    if (checkbox.checked == true) {
+        field.style.display = "block";
+    } else {
+        field.style.display = "none";
+    }
+    }</script>
+</html>
+
+
+
