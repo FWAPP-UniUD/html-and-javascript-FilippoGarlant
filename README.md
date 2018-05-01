@@ -1,5 +1,6 @@
 # TITOLO
 
-*Questa è il mio primo repository*
+*Questo è il mio primo repository*
+
 **git creato a partire da zero**
 
