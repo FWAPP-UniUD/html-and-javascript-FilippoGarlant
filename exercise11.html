@@ -1,27 +1,29 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Lorem ipsum generator</title>
+        <title>Exercise 11: Lorem ipsum generator</title>
         <script src="ex11_get_text.js" defer></script>
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
-        <h1>Here's the <em>Lorem ipsum generator®</em></h1>
-        <h2>Start from the number of paragraph to be generated</h2>
-        <input type="number" id="n_paragraphs" min="0" value="5">
-        <h2>Then tell me the average lenght of the paragraphs</h2>
-        <input type="radio" name="tot_lenght" value="short" />
-        <input type="radio" name="tot_lenght" value="medium" />
-        <input type="radio" name="tot_lenght" value="long" />
-        <input type="radio" name="tot_lenght" value="verylong" />
-        <h2>Should I decorate them?</h2>
-        <select id="decoration">
-            <option value="decorate">YES</option>
-            <option value="">NO</option>
-        </select>
-        <button type="button" id="send">Press to see</button>
-        <button type="button" id="clear">Press to clear</button>
-        <hr/>
+        <div>
+            <h1>Here's the <em>Lorem ipsum generator®</em></h1>
+            <h2>Start from the number of paragraph to be generated</h2>
+            <input type="number" id="n_paragraphs" min="0" value="5">
+            <h2>Then tell me the average lenght of the paragraphs</h2>
+            <input type="radio" name="tot_lenght" value="short" />
+            <input type="radio" name="tot_lenght" value="medium" />
+            <input type="radio" name="tot_lenght" value="long" />
+            <input type="radio" name="tot_lenght" value="verylong" />
+            <h2>Should I decorate them?</h2>
+            <select id="decoration">
+                <option value="decorate">YES</option>
+                <option value="">NO</option>
+            </select>
+            <button type="button" id="send">Press to see</button>
+            <button type="button" id="clear">Press to clear</button>
+        </div>
+            <hr/>
         <div id="placeholder">
 
         </div>

@@ -14,7 +14,7 @@ function write() {
     }).then(function(data) {
         const placeholder = document.getElementById("placeholder");
         const content = document.createTextNode("p");
-        content.textContent = data[0];
+        content.textContent = data[0];/*<-*/
         placeholder.appendChild(content);
     }).catch(function(error) {
         const contenitore = document.getElementById("placeholder");
